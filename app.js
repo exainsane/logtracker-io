@@ -10,7 +10,7 @@ socket.on('connection',(socket)=>{
     let handler = new SocketHandler(socket)
 })
 
-app.listen(process.env.PORT || 3000,()=>{
+http.listen(process.env.PORT || 3000,()=>{
     console.log("Socket Server Started")
 })
 
