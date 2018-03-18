@@ -1,4 +1,4 @@
-var app = require('express')
+var app = require('express')()
 var http = require("http").Server(app)
 var socket = require("socket.io")(http)
 var cors = require("cors")
