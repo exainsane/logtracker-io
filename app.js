@@ -11,8 +11,7 @@ socket.on('connection',(socket)=>{
 })
 
 app.listen(3000,()=>{
-    console.log("Socket Server Started : " + app.address().port)
+    console.log("Socket Server Started")
 })
 
 
-    
