@@ -10,8 +10,8 @@ socket.on('connection',(socket)=>{
     let handler = new SocketHandler(socket)
 })
 
-http.listen(3000,()=>{
-    console.log("Socket Server Started : " + http.address().port)
+app.listen(3000,()=>{
+    console.log("Socket Server Started : " + app.address().port)
 })
 
 
